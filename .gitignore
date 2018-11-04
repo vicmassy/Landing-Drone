@@ -1,0 +1,3 @@
+*.txt
+*.cache
+build/Makefile
