@@ -1,0 +1,2 @@
+ardrone_simulator_gazebo7/cvg_sim_gazebo:ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins:ardrone_simulator_gazebo7/cvg_sim_msgs:ardrone_simulator_gazebo7/landing_drone:ardrone_simulator_gazebo7/message_to_tf:ardrone_simulator_gazebo7/tum_simulator
+-DCATKIN_DEVEL_PREFIX=/home/ahmed/ardrone_simulator/devel -DCMAKE_INSTALL_PREFIX=/home/ahmed/ardrone_simulator/install -G Unix Makefiles
