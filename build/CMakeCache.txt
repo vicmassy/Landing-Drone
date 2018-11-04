@@ -593,25 +593,25 @@ class_loader_DIR:PATH=/opt/ros/kinetic/share/class_loader/cmake
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 
 //Value Computed by CMake
-cvg_sim_gazebo_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/cvg_sim_gazebo
+cvg_sim_gazebo_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo
 
 //The directory containing a CMake configuration file for cvg_sim_gazebo.
 cvg_sim_gazebo_DIR:PATH=/home/ahmed/ardrone_simulator/devel/share/cvg_sim_gazebo/cmake
 
 //Value Computed by CMake
-cvg_sim_gazebo_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/ardrone_simulator_gazebo7/cvg_sim_gazebo
+cvg_sim_gazebo_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo
 
 //Value Computed by CMake
-cvg_sim_gazebo_plugins_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins
+cvg_sim_gazebo_plugins_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins
 
 //Value Computed by CMake
-cvg_sim_gazebo_plugins_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins
+cvg_sim_gazebo_plugins_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins
 
 //Value Computed by CMake
-cvg_sim_msgs_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/cvg_sim_msgs
+cvg_sim_msgs_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/cvg_sim_msgs
 
 //Value Computed by CMake
-cvg_sim_msgs_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/ardrone_simulator_gazebo7/cvg_sim_msgs
+cvg_sim_msgs_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/cvg_sim_msgs
 
 //Dependencies for the target
 diffdrive_plugin_6w_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;
@@ -720,10 +720,10 @@ ignition-math2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-math2
 image_transport_DIR:PATH=/opt/ros/kinetic/share/image_transport/cmake
 
 //Value Computed by CMake
-landing_drone_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/landing_drone
+landing_drone_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/landing_drone
 
 //Value Computed by CMake
-landing_drone_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/ardrone_simulator_gazebo7/landing_drone
+landing_drone_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/landing_drone
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
@@ -738,10 +738,10 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 
 //Value Computed by CMake
-message_to_tf_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/message_to_tf
+message_to_tf_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/message_to_tf
 
 //Value Computed by CMake
-message_to_tf_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/ardrone_simulator_gazebo7/message_to_tf
+message_to_tf_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/message_to_tf
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
@@ -813,10 +813,10 @@ tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
 trajectory_msgs_DIR:PATH=/opt/ros/kinetic/share/trajectory_msgs/cmake
 
 //Value Computed by CMake
-tum_simulator_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/tum_simulator
+tum_simulator_BINARY_DIR:STATIC=/home/ahmed/ardrone_simulator/build/tum_simulator
 
 //Value Computed by CMake
-tum_simulator_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/ardrone_simulator_gazebo7/tum_simulator
+tum_simulator_SOURCE_DIR:STATIC=/home/ahmed/ardrone_simulator/src/tum_simulator
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake

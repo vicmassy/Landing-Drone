@@ -292,7 +292,7 @@ _cvg_sim_msgs_generate_messages_check_deps_HeadingCommand: cmake_check_build_sys
 
 # fast build rule for target.
 _cvg_sim_msgs_generate_messages_check_deps_HeadingCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeadingCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeadingCommand.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeadingCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeadingCommand.dir/build
 .PHONY : _cvg_sim_msgs_generate_messages_check_deps_HeadingCommand/fast
 
 #=============================================================================
@@ -305,21 +305,34 @@ cvg_sim_msgs_genpy: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_msgs_genpy/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genpy.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genpy.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genpy.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genpy.dir/build
 .PHONY : cvg_sim_msgs_genpy/fast
 
 #=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_HeightCommand
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_ServoCommand
 
 # Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_HeightCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_HeightCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_HeightCommand
+_cvg_sim_msgs_generate_messages_check_deps_ServoCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_ServoCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ServoCommand
 
 # fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_HeightCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeightCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeightCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_HeightCommand/fast
+_cvg_sim_msgs_generate_messages_check_deps_ServoCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ServoCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ServoCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ServoCommand/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_MotorCommand
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_MotorCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_MotorCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorCommand
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_MotorCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorCommand/fast
 
 #=============================================================================
 # Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_RC
@@ -331,7 +344,7 @@ _cvg_sim_msgs_generate_messages_check_deps_RC: cmake_check_build_system
 
 # fast build rule for target.
 _cvg_sim_msgs_generate_messages_check_deps_RC/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RC.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RC.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RC.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RC.dir/build
 .PHONY : _cvg_sim_msgs_generate_messages_check_deps_RC/fast
 
 #=============================================================================
@@ -344,47 +357,21 @@ cvg_sim_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_cpp.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_cpp.dir/build
 .PHONY : cvg_sim_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_Supply
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand
 
 # Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_Supply: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_Supply
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Supply
+_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand
 
 # fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_Supply/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Supply.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Supply.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Supply/fast
-
-#=============================================================================
-# Target rules for targets named cvg_sim_msgs_genlisp
-
-# Build rule for target.
-cvg_sim_msgs_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_genlisp
-.PHONY : cvg_sim_msgs_genlisp
-
-# fast build rule for target.
-cvg_sim_msgs_genlisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genlisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genlisp.dir/build
-.PHONY : cvg_sim_msgs_genlisp/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_MotorStatus
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_MotorStatus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_MotorStatus
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorStatus
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_MotorStatus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorStatus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorStatus.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorStatus/fast
+_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand/fast
 
 #=============================================================================
 # Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_RuddersCommand
@@ -396,7 +383,7 @@ _cvg_sim_msgs_generate_messages_check_deps_RuddersCommand: cmake_check_build_sys
 
 # fast build rule for target.
 _cvg_sim_msgs_generate_messages_check_deps_RuddersCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RuddersCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RuddersCommand.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RuddersCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RuddersCommand.dir/build
 .PHONY : _cvg_sim_msgs_generate_messages_check_deps_RuddersCommand/fast
 
 #=============================================================================
@@ -409,190 +396,21 @@ _cvg_sim_msgs_generate_messages_check_deps_RawRC: cmake_check_build_system
 
 # fast build rule for target.
 _cvg_sim_msgs_generate_messages_check_deps_RawRC/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawRC.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawRC.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawRC.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawRC.dir/build
 .PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawRC/fast
 
 #=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_Altitude
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_MotorStatus
 
 # Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_Altitude: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_Altitude
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altitude
+_cvg_sim_msgs_generate_messages_check_deps_MotorStatus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_MotorStatus
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorStatus
 
 # fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_Altitude/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altitude.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altitude.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altitude/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand/fast
-
-#=============================================================================
-# Target rules for targets named cvg_sim_msgs_generate_messages
-
-# Build rule for target.
-cvg_sim_msgs_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_generate_messages
-.PHONY : cvg_sim_msgs_generate_messages
-
-# fast build rule for target.
-cvg_sim_msgs_generate_messages/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages.dir/build
-.PHONY : cvg_sim_msgs_generate_messages/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_RawImu
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_RawImu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_RawImu
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawImu
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_RawImu/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawImu.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawImu.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawImu/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_lisp
-
-# Build rule for target.
-geometry_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
-
-# Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_py
-
-# Build rule for target.
-std_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_eus
-
-# Build rule for target.
-geometry_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_MotorCommand
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_MotorCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_MotorCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorCommand
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_MotorCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorCommand/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_eus
-
-# Build rule for target.
-std_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand/fast
+_cvg_sim_msgs_generate_messages_check_deps_MotorStatus/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorStatus.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorStatus.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorStatus/fast
 
 #=============================================================================
 # Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand
@@ -604,7 +422,7 @@ _cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand: cmake_check_build_
 
 # fast build rule for target.
 _cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand.dir/build
 .PHONY : _cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand/fast
 
 #=============================================================================
@@ -617,138 +435,21 @@ _cvg_sim_msgs_generate_messages_check_deps_ControllerState: cmake_check_build_sy
 
 # fast build rule for target.
 _cvg_sim_msgs_generate_messages_check_deps_ControllerState/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ControllerState.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ControllerState.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ControllerState.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ControllerState.dir/build
 .PHONY : _cvg_sim_msgs_generate_messages_check_deps_ControllerState/fast
 
 #=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_ServoCommand
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_HeightCommand
 
 # Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_ServoCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_ServoCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ServoCommand
+_cvg_sim_msgs_generate_messages_check_deps_HeightCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_HeightCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_HeightCommand
 
 # fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_ServoCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ServoCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ServoCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ServoCommand/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_MotorPWM
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_MotorPWM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_MotorPWM
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorPWM
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_MotorPWM/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorPWM.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorPWM.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorPWM/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand/fast
-
-#=============================================================================
-# Target rules for targets named cvg_sim_msgs_generate_messages_nodejs
-
-# Build rule for target.
-cvg_sim_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_generate_messages_nodejs
-.PHONY : cvg_sim_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-cvg_sim_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_nodejs.dir/build
-.PHONY : cvg_sim_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named cvg_sim_msgs_generate_messages_lisp
-
-# Build rule for target.
-cvg_sim_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_generate_messages_lisp
-.PHONY : cvg_sim_msgs_generate_messages_lisp
-
-# fast build rule for target.
-cvg_sim_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_lisp.dir/build
-.PHONY : cvg_sim_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_cpp
-
-# Build rule for target.
-geometry_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_Altimeter
-
-# Build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_Altimeter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_Altimeter
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altimeter
-
-# fast build rule for target.
-_cvg_sim_msgs_generate_messages_check_deps_Altimeter/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altimeter.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altimeter.dir/build
-.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altimeter/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_nodejs
-
-# Build rule for target.
-geometry_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named cvg_sim_msgs_gennodejs
-
-# Build rule for target.
-cvg_sim_msgs_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_gennodejs
-.PHONY : cvg_sim_msgs_gennodejs
-
-# fast build rule for target.
-cvg_sim_msgs_gennodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gennodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gennodejs.dir/build
-.PHONY : cvg_sim_msgs_gennodejs/fast
+_cvg_sim_msgs_generate_messages_check_deps_HeightCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeightCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_HeightCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_HeightCommand/fast
 
 #=============================================================================
 # Target rules for targets named cvg_sim_msgs_generate_messages_py
@@ -760,7 +461,7 @@ cvg_sim_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/build
 .PHONY : cvg_sim_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -773,21 +474,307 @@ _cvg_sim_msgs_generate_messages_check_deps_Compass: cmake_check_build_system
 
 # fast build rule for target.
 _cvg_sim_msgs_generate_messages_check_deps_Compass/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Compass.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Compass.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Compass.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Compass.dir/build
 .PHONY : _cvg_sim_msgs_generate_messages_check_deps_Compass/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_nodejs
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_MotorPWM
 
 # Build rule for target.
-std_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
-.PHONY : std_msgs_generate_messages_nodejs
+_cvg_sim_msgs_generate_messages_check_deps_MotorPWM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_MotorPWM
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorPWM
 
 # fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
+_cvg_sim_msgs_generate_messages_check_deps_MotorPWM/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorPWM.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_MotorPWM.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_MotorPWM/fast
+
+#=============================================================================
+# Target rules for targets named cvg_sim_msgs_generate_messages
+
+# Build rule for target.
+cvg_sim_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_generate_messages
+.PHONY : cvg_sim_msgs_generate_messages
+
+# fast build rule for target.
+cvg_sim_msgs_generate_messages/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages.dir/build
+.PHONY : cvg_sim_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_RawImu
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_RawImu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_RawImu
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawImu
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_RawImu/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawImu.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawImu.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawImu/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_eus
+
+# Build rule for target.
+geometry_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_eus
+
+# Build rule for target.
+std_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
+.PHONY : std_msgs_generate_messages_eus
+
+# fast build rule for target.
+std_msgs_generate_messages_eus/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_Altimeter
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_Altimeter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_Altimeter
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altimeter
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_Altimeter/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altimeter.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altimeter.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altimeter/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geometry_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geometry_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+.PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named cvg_sim_msgs_gennodejs
+
+# Build rule for target.
+cvg_sim_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_gennodejs
+.PHONY : cvg_sim_msgs_gennodejs
+
+# fast build rule for target.
+cvg_sim_msgs_gennodejs/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gennodejs.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gennodejs.dir/build
+.PHONY : cvg_sim_msgs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_Supply
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_Supply: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_Supply
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Supply
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_Supply/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Supply.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Supply.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Supply/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_ThrustCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand/fast
+
+#=============================================================================
+# Target rules for targets named cvg_sim_msgs_generate_messages_nodejs
+
+# Build rule for target.
+cvg_sim_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_generate_messages_nodejs
+.PHONY : cvg_sim_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+cvg_sim_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_nodejs.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_nodejs.dir/build
+.PHONY : cvg_sim_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named cvg_sim_msgs_generate_messages_lisp
+
+# Build rule for target.
+cvg_sim_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_generate_messages_lisp
+.PHONY : cvg_sim_msgs_generate_messages_lisp
+
+# fast build rule for target.
+cvg_sim_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_lisp.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_lisp.dir/build
+.PHONY : cvg_sim_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_RawMagnetic.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_YawrateCommand.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand/fast
+
+#=============================================================================
+# Target rules for targets named _cvg_sim_msgs_generate_messages_check_deps_Altitude
+
+# Build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_Altitude: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cvg_sim_msgs_generate_messages_check_deps_Altitude
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altitude
+
+# fast build rule for target.
+_cvg_sim_msgs_generate_messages_check_deps_Altitude/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altitude.dir/build.make cvg_sim_msgs/CMakeFiles/_cvg_sim_msgs_generate_messages_check_deps_Altitude.dir/build
+.PHONY : _cvg_sim_msgs_generate_messages_check_deps_Altitude/fast
+
+#=============================================================================
+# Target rules for targets named cvg_sim_msgs_genlisp
+
+# Build rule for target.
+cvg_sim_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cvg_sim_msgs_genlisp
+.PHONY : cvg_sim_msgs_genlisp
+
+# fast build rule for target.
+cvg_sim_msgs_genlisp/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genlisp.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_genlisp.dir/build
+.PHONY : cvg_sim_msgs_genlisp/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
@@ -799,8 +786,21 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make cvg_sim_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_nodejs
+
+# Build rule for target.
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make cvg_sim_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named cvg_sim_msgs_gencpp
@@ -812,7 +812,7 @@ cvg_sim_msgs_gencpp: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_msgs_gencpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gencpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gencpp.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gencpp.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_gencpp.dir/build
 .PHONY : cvg_sim_msgs_gencpp/fast
 
 #=============================================================================
@@ -825,7 +825,7 @@ cvg_sim_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_eus.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_eus.dir/build
 .PHONY : cvg_sim_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -838,7 +838,7 @@ cvg_sim_msgs_geneus: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_msgs_geneus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_geneus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_geneus.dir/build
+	$(MAKE) -f cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_geneus.dir/build.make cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_geneus.dir/build
 .PHONY : cvg_sim_msgs_geneus/fast
 
 #=============================================================================
@@ -851,7 +851,7 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/tum_simulator/CMakeFiles/_catkin_empty_exported_target.dir/build.make ardrone_simulator_gazebo7/tum_simulator/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f tum_simulator/CMakeFiles/_catkin_empty_exported_target.dir/build.make tum_simulator/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
@@ -864,7 +864,7 @@ trajectory_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -877,7 +877,7 @@ trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -890,7 +890,7 @@ trajectory_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -903,7 +903,7 @@ trajectory_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -916,7 +916,7 @@ trajectory_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -929,7 +929,7 @@ gazebo_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
 .PHONY : gazebo_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -942,7 +942,7 @@ gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
 .PHONY : gazebo_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -955,7 +955,7 @@ gazebo_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
 .PHONY : gazebo_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -968,7 +968,7 @@ dynamic_reconfigure_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
@@ -981,7 +981,7 @@ tf_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
@@ -994,7 +994,7 @@ tf2_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1007,7 +1007,7 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1020,7 +1020,7 @@ actionlib_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 #=============================================================================
@@ -1033,7 +1033,7 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 #=============================================================================
@@ -1046,7 +1046,7 @@ std_srvs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1059,7 +1059,7 @@ std_srvs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1072,7 +1072,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1085,7 +1085,7 @@ dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1098,7 +1098,7 @@ tf_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1111,7 +1111,7 @@ std_srvs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 .PHONY : std_srvs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1124,7 +1124,7 @@ std_srvs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1137,7 +1137,7 @@ tf_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1150,7 +1150,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1163,7 +1163,7 @@ tf_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 #=============================================================================
@@ -1176,7 +1176,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1189,7 +1189,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -1202,7 +1202,7 @@ tf_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1215,7 +1215,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1228,7 +1228,7 @@ actionlib_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1241,7 +1241,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1254,7 +1254,7 @@ std_srvs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
@@ -1267,7 +1267,7 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
@@ -1280,7 +1280,7 @@ dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1293,7 +1293,7 @@ gazebo_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
 .PHONY : gazebo_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1306,7 +1306,7 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1319,7 +1319,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1332,7 +1332,7 @@ tf2_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1345,7 +1345,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1358,7 +1358,7 @@ gazebo_ros_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_ros_gencfg/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build.make cvg_sim_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build
 .PHONY : gazebo_ros_gencfg/fast
 
 #=============================================================================
@@ -1371,7 +1371,7 @@ gazebo_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
 .PHONY : gazebo_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1384,7 +1384,7 @@ sensor_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1397,7 +1397,7 @@ tf2_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1410,7 +1410,7 @@ sensor_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1423,7 +1423,7 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1436,7 +1436,7 @@ actionlib_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1449,7 +1449,7 @@ actionlib_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1462,7 +1462,7 @@ sensor_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1475,7 +1475,7 @@ actionlib_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1488,7 +1488,7 @@ actionlib_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 #=============================================================================
@@ -1501,7 +1501,7 @@ actionlib_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1514,7 +1514,7 @@ actionlib_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1527,7 +1527,7 @@ actionlib_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1540,7 +1540,7 @@ tf2_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1553,7 +1553,7 @@ actionlib_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1566,7 +1566,7 @@ tf2_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make cvg_sim_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1579,7 +1579,7 @@ dynamic_reconfigure_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 #=============================================================================
@@ -1592,7 +1592,7 @@ dynamic_reconfigure_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1605,7 +1605,7 @@ test_trajectory: cmake_check_build_system
 
 # fast build rule for target.
 test_trajectory/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build
 .PHONY : test_trajectory/fast
 
 #=============================================================================
@@ -1618,7 +1618,7 @@ hector_gazebo_quadrotor_state_controller: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_quadrotor_state_controller/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_state_controller.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_state_controller.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_state_controller.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_state_controller.dir/build
 .PHONY : hector_gazebo_quadrotor_state_controller/fast
 
 #=============================================================================
@@ -1631,7 +1631,7 @@ hector_gazebo_quadrotor_simple_controller: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_quadrotor_simple_controller/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/build
 .PHONY : hector_gazebo_quadrotor_simple_controller/fast
 
 #=============================================================================
@@ -1644,7 +1644,7 @@ hector_gazebo_ros_baro: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_ros_baro/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_baro.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_baro.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_baro.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_baro.dir/build
 .PHONY : hector_gazebo_ros_baro/fast
 
 #=============================================================================
@@ -1657,7 +1657,7 @@ hector_gazebo_ros_sonar: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_ros_sonar/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build
 .PHONY : hector_gazebo_ros_sonar/fast
 
 #=============================================================================
@@ -1670,7 +1670,7 @@ hector_gazebo_ros_magnetic: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_ros_magnetic/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build
 .PHONY : hector_gazebo_ros_magnetic/fast
 
 #=============================================================================
@@ -1683,7 +1683,7 @@ reset_plugin: cmake_check_build_system
 
 # fast build rule for target.
 reset_plugin/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/reset_plugin.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/reset_plugin.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/reset_plugin.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/reset_plugin.dir/build
 .PHONY : reset_plugin/fast
 
 #=============================================================================
@@ -1696,7 +1696,7 @@ diffdrive_plugin_6w: cmake_check_build_system
 
 # fast build rule for target.
 diffdrive_plugin_6w/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/diffdrive_plugin_6w.dir/build
 .PHONY : diffdrive_plugin_6w/fast
 
 #=============================================================================
@@ -1709,7 +1709,7 @@ nav_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1722,7 +1722,7 @@ nav_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1735,7 +1735,7 @@ ardrone_autonomy_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 ardrone_autonomy_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_nodejs.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_nodejs.dir/build
 .PHONY : ardrone_autonomy_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1748,7 +1748,7 @@ hector_gazebo_ros_imu: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_ros_imu/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/build
 .PHONY : hector_gazebo_ros_imu/fast
 
 #=============================================================================
@@ -1761,7 +1761,7 @@ nav_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1774,7 +1774,7 @@ cvg_sim_gazebo_plugins_gencpp: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_gencpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gencpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gencpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gencpp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gencpp.dir/build
 .PHONY : cvg_sim_gazebo_plugins_gencpp/fast
 
 #=============================================================================
@@ -1787,7 +1787,7 @@ ardrone_autonomy_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 ardrone_autonomy_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_py.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_py.dir/build
 .PHONY : ardrone_autonomy_generate_messages_py/fast
 
 #=============================================================================
@@ -1800,7 +1800,7 @@ ardrone_autonomy_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 ardrone_autonomy_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_lisp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_lisp.dir/build
 .PHONY : ardrone_autonomy_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1813,7 +1813,7 @@ ardrone_autonomy_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 ardrone_autonomy_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_cpp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_cpp.dir/build
 .PHONY : ardrone_autonomy_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1826,7 +1826,7 @@ cvg_sim_gazebo_plugins_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_generate_messages_nodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_nodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_nodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_nodejs.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_nodejs.dir/build
 .PHONY : cvg_sim_gazebo_plugins_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1839,7 +1839,7 @@ nav_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1852,7 +1852,7 @@ cvg_sim_gazebo_plugins_generate_messages: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_generate_messages/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages.dir/build
 .PHONY : cvg_sim_gazebo_plugins_generate_messages/fast
 
 #=============================================================================
@@ -1865,7 +1865,7 @@ _cvg_sim_gazebo_plugins_generate_messages_check_deps_SetBias: cmake_check_build_
 
 # fast build rule for target.
 _cvg_sim_gazebo_plugins_generate_messages_check_deps_SetBias/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/_cvg_sim_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/_cvg_sim_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/_cvg_sim_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/_cvg_sim_gazebo_plugins_generate_messages_check_deps_SetBias.dir/build
 .PHONY : _cvg_sim_gazebo_plugins_generate_messages_check_deps_SetBias/fast
 
 #=============================================================================
@@ -1878,7 +1878,7 @@ ardrone_autonomy_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 ardrone_autonomy_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_eus.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/ardrone_autonomy_generate_messages_eus.dir/build
 .PHONY : ardrone_autonomy_generate_messages_eus/fast
 
 #=============================================================================
@@ -1891,7 +1891,7 @@ cvg_sim_gazebo_plugins_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_generate_messages_cpp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_cpp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_cpp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_cpp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_cpp.dir/build
 .PHONY : cvg_sim_gazebo_plugins_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1904,7 +1904,7 @@ cvg_sim_gazebo_plugins_genpy: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_genpy/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genpy.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genpy.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genpy.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genpy.dir/build
 .PHONY : cvg_sim_gazebo_plugins_genpy/fast
 
 #=============================================================================
@@ -1917,7 +1917,7 @@ cvg_sim_gazebo_plugins_genlisp: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_genlisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genlisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genlisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genlisp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_genlisp.dir/build
 .PHONY : cvg_sim_gazebo_plugins_genlisp/fast
 
 #=============================================================================
@@ -1930,7 +1930,7 @@ cvg_sim_gazebo_plugins_geneus: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_geneus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_geneus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_geneus.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_geneus.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_geneus.dir/build
 .PHONY : cvg_sim_gazebo_plugins_geneus/fast
 
 #=============================================================================
@@ -1943,7 +1943,7 @@ cvg_sim_gazebo_plugins_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_generate_messages_lisp/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_lisp.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_lisp.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_lisp.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_lisp.dir/build
 .PHONY : cvg_sim_gazebo_plugins_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1956,7 +1956,7 @@ cvg_sim_gazebo_plugins_gennodejs: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_gennodejs/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gennodejs.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gennodejs.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gennodejs.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_gennodejs.dir/build
 .PHONY : cvg_sim_gazebo_plugins_gennodejs/fast
 
 #=============================================================================
@@ -1969,7 +1969,7 @@ hector_gazebo_ros_gps: cmake_check_build_system
 
 # fast build rule for target.
 hector_gazebo_ros_gps/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/build
 .PHONY : hector_gazebo_ros_gps/fast
 
 #=============================================================================
@@ -1982,7 +1982,7 @@ nav_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1995,7 +1995,7 @@ cvg_sim_gazebo_plugins_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_generate_messages_eus/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_eus.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_eus.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_eus.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_eus.dir/build
 .PHONY : cvg_sim_gazebo_plugins_generate_messages_eus/fast
 
 #=============================================================================
@@ -2008,7 +2008,7 @@ cvg_sim_gazebo_plugins_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 cvg_sim_gazebo_plugins_generate_messages_py/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_py.dir/build.make ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_py.dir/build
+	$(MAKE) -f cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_py.dir/build.make cvg_sim_gazebo_plugins/CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_py.dir/build
 .PHONY : cvg_sim_gazebo_plugins_generate_messages_py/fast
 
 #=============================================================================
@@ -2021,7 +2021,7 @@ MarkerLanding: cmake_check_build_system
 
 # fast build rule for target.
 MarkerLanding/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/landing_drone/CMakeFiles/MarkerLanding.dir/build.make ardrone_simulator_gazebo7/landing_drone/CMakeFiles/MarkerLanding.dir/build
+	$(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/build
 .PHONY : MarkerLanding/fast
 
 #=============================================================================
@@ -2034,7 +2034,7 @@ message_to_tf: cmake_check_build_system
 
 # fast build rule for target.
 message_to_tf/fast:
-	$(MAKE) -f ardrone_simulator_gazebo7/message_to_tf/CMakeFiles/message_to_tf.dir/build.make ardrone_simulator_gazebo7/message_to_tf/CMakeFiles/message_to_tf.dir/build
+	$(MAKE) -f message_to_tf/CMakeFiles/message_to_tf.dir/build.make message_to_tf/CMakeFiles/message_to_tf.dir/build
 .PHONY : message_to_tf/fast
 
 # Help Target
@@ -2061,44 +2061,44 @@ help:
 	@echo "... gtest_main"
 	@echo "... _cvg_sim_msgs_generate_messages_check_deps_HeadingCommand"
 	@echo "... cvg_sim_msgs_genpy"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_HeightCommand"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_ServoCommand"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_MotorCommand"
 	@echo "... _cvg_sim_msgs_generate_messages_check_deps_RC"
 	@echo "... cvg_sim_msgs_generate_messages_cpp"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_Supply"
-	@echo "... cvg_sim_msgs_genlisp"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_MotorStatus"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand"
 	@echo "... _cvg_sim_msgs_generate_messages_check_deps_RuddersCommand"
 	@echo "... _cvg_sim_msgs_generate_messages_check_deps_RawRC"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_Altitude"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_MotorStatus"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_ControllerState"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_HeightCommand"
+	@echo "... cvg_sim_msgs_generate_messages_py"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_Compass"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_MotorPWM"
 	@echo "... cvg_sim_msgs_generate_messages"
 	@echo "... _cvg_sim_msgs_generate_messages_check_deps_RawImu"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_AttitudeCommand"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_MotorCommand"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... _cvg_sim_msgs_generate_messages_check_deps_VelocityZCommand"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_PositionXYCommand"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_ControllerState"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_ServoCommand"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_MotorPWM"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand"
-	@echo "... cvg_sim_msgs_generate_messages_nodejs"
-	@echo "... cvg_sim_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... _cvg_sim_msgs_generate_messages_check_deps_Altimeter"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... cvg_sim_msgs_gennodejs"
-	@echo "... cvg_sim_msgs_generate_messages_py"
-	@echo "... _cvg_sim_msgs_generate_messages_check_deps_Compass"
-	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_Supply"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_ThrustCommand"
+	@echo "... cvg_sim_msgs_generate_messages_nodejs"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... cvg_sim_msgs_generate_messages_lisp"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_VelocityXYCommand"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_RawMagnetic"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_YawrateCommand"
+	@echo "... _cvg_sim_msgs_generate_messages_check_deps_Altitude"
+	@echo "... cvg_sim_msgs_genlisp"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... cvg_sim_msgs_gencpp"
 	@echo "... cvg_sim_msgs_generate_messages_eus"
 	@echo "... cvg_sim_msgs_geneus"

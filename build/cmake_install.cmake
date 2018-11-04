@@ -117,12 +117,12 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ahmed/ardrone_simulator/build/gtest/cmake_install.cmake")
-  include("/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/cvg_sim_msgs/cmake_install.cmake")
-  include("/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/tum_simulator/cmake_install.cmake")
-  include("/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/cvg_sim_gazebo/cmake_install.cmake")
-  include("/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins/cmake_install.cmake")
-  include("/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/landing_drone/cmake_install.cmake")
-  include("/home/ahmed/ardrone_simulator/build/ardrone_simulator_gazebo7/message_to_tf/cmake_install.cmake")
+  include("/home/ahmed/ardrone_simulator/build/cvg_sim_msgs/cmake_install.cmake")
+  include("/home/ahmed/ardrone_simulator/build/tum_simulator/cmake_install.cmake")
+  include("/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo/cmake_install.cmake")
+  include("/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins/cmake_install.cmake")
+  include("/home/ahmed/ardrone_simulator/build/landing_drone/cmake_install.cmake")
+  include("/home/ahmed/ardrone_simulator/build/message_to_tf/cmake_install.cmake")
 
 endif()
 
