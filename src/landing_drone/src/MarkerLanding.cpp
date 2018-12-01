@@ -14,7 +14,8 @@ using namespace boost::this_thread;
 int state = 0; // Three states: 0 - ready to takeoff
 // 1 - follow marker
 // 2 - land
-double r = 0;
+double drone_altd;
+double r = 0.0;
 double initTime = 0;
 bool land = false;
 double limit = 1.0;
@@ -30,10 +31,14 @@ double vel_y = 0.0;
 void checkCin() {
 	char follow_marker;
 	std::cin >> follow_marker;
-	state = 1;
+	if (follow_marker = 'l') {
+		state = 2;
+	}
 	char land;
-	std::cin >> land;
-	state = 2;
+	std::cin>> land;
+	if (land == 'l') {
+		state = 3;
+	}
 }
 
 void sonarHeightCallback(const sensor_msgs::Range::ConstPtr& msg ) {
@@ -44,6 +49,10 @@ void sonarHeightCallback(const sensor_msgs::Range::ConstPtr& msg ) {
 void navdataSpeedCallback(const ardrone_autonomy::NavdataConstPtr nav) {
 	vel_x = nav->vx * 0.001;
 	vel_y = nav->vy * 0.001;
+}
+
+void heightControl(const ardrone_autonomy::Navdata& msg_in) {
+  drone_altd=msg_in.altd;
 }
 
 int main(int argc, char **argv) {
@@ -73,14 +82,14 @@ int main(int argc, char **argv) {
 	double current_x = 0.0, current_y = 0.0;
 
 	while(ros::ok()) {
+		//ros::Subscriber sub = n.subscribe("sonar_height", 1000,sonarHeightCallback);
 // Lookup transform
 		tf::StampedTransform transform;
 		transform.setOrigin(tf::Vector3(0.0, 0.0, 0.0));
 		ros::Subscriber navdata = n.subscribe("ardrone/navdata", 10,navdataSpeedCallback);
-		//ros::Subscriber sub = n.subscribe("sonar_height", 1000,sonarHeightCallback);
+		
 		try {
-			listener.lookupTransform("/ardrone_base_bottomcam", "ar_marker_0",
-				ros::Time(0), transform);
+			listener.lookupTransform("/ardrone_base_bottomcam", "ar_marker_0", ros::Time(0), transform);
 			printf("------- Frame Start -------\n");
 			printf("Received TF: x: %f, y: %f, z: %f. \n\n",
 				transform.getOrigin().x(), transform.getOrigin().y(), transform.getOrigin().z());
@@ -101,8 +110,8 @@ int main(int argc, char **argv) {
 			sum_error_x += -state_x;
 			sum_error_y += -state_y;
 	// PID
-			twist.linear.x = -current_y * 0.1 +  sum_error_y * 0.01 + 1 *(-current_y - last_error_y);
-			twist.linear.y = -current_x * 0.1 +  sum_error_x * 0.01 + 1 *(-current_x - last_error_x);
+			twist.linear.x = -current_y * 2.0 +  sum_error_y * 0.1 + 1.0 *(-current_y - last_error_y);
+			twist.linear.y = -current_x * 2.0 +  sum_error_x * 0.1 + 1.0 *(-current_x - last_error_x);
 			twist.linear.z = -(transform.getOrigin().z()-1)*0.3;
 			printf("Measured vals x: %f, y: %f\n", transform.getOrigin().x(), transform.getOrigin().y());
 			printf("Corrected vals x: %f, y: %f\n", state_x, state_y);
@@ -124,6 +133,7 @@ int main(int argc, char **argv) {
 			ros::Duration(1.0).sleep();
 		//continue;
 		}
+
 	 // Lost marker control
 		if(twist.linear.x == twist_old.linear.x && twist.linear.y == twist_old.linear.y && twist.linear.z == twist_old.linear.z) {
 			twist.linear.x = 0.0;
@@ -134,16 +144,43 @@ int main(int argc, char **argv) {
 		else twist_old = twist;
 	// States
 	// State 0: takeoff
+		ros::Subscriber sub = n.subscribe("/ardrone/navdata", 1, heightControl);
+		printf("Altitude: %f\n", drone_altd);
 		if(state == 0) {
+			printf("taking off\n");
 			ros::Publisher pub = n.advertise<std_msgs::Empty>("/ardrone/takeoff",1);
 			double time_start = (double)ros::Time::now().toSec();
-			while((double)ros::Time::now().toSec() < time_start + 3.0) { // send conmmand for 3 sec
+			while((double)ros::Time::now().toSec() < time_start + 6.0) { // send conmmand for 3 sec
+				pub.publish(std_msgs::Empty());
+				ros::spinOnce();
+			}
+			state = 1234;
+		}
+		if(state == 1234) {
+			printf("taking off\n");
+			ros::Publisher pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
+			twist.linear.z = 1;
+			double time_start = (double)ros::Time::now().toSec();
+			while((double)ros::Time::now().toSec() < time_start + 2.0) {
+				pub.publish(twist); // Land the drone
+				ros::spinOnce();
+				rate.sleep();
+			}
+			state = 1;
+		}
+
+		if(state == 111) {
+			printf("taking off\n");
+			ros::Publisher pub = n.advertise<std_msgs::Empty>("/ardrone/takeoff",1);
+			double time_start = (double)ros::Time::now().toSec();
+			while((double)ros::Time::now().toSec() < time_start + 6.0) { // send conmmand for 3 sec
 				pub.publish(std_msgs::Empty());
 				ros::spinOnce();
 			}
 		}
 	// State - follow marker
-		if(state == 1) {
+		else if(state == 1) {
+			printf("Im following\n");
 			ros::Publisher pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
 			double time_start = (double)ros::Time::now().toSec();
 			while((double)ros::Time::now().toSec() < time_start + 0.25) { //send command for 0.1 sec
@@ -153,6 +190,31 @@ int main(int argc, char **argv) {
 		}
 	 // State - land the drone
 		if(state == 2) {
+			if (drone_altd > 300) {
+				printf("Landing!!!\n");
+				ros::Publisher pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
+				twist.linear.z = -1;
+				double time_start = (double)ros::Time::now().toSec();
+				while((double)ros::Time::now().toSec() < time_start + 0.25) {
+					pub.publish(twist); // Land the drone
+					ros::spinOnce();
+					rate.sleep();
+				}
+			}
+			else {
+				printf("Landed\n");
+				ros::Publisher pub = n.advertise<std_msgs::Empty>("/ardrone/land", 1);
+				double time_start = (double)ros::Time::now().toSec();
+				while((double)ros::Time::now().toSec() < time_start + 3.0) {
+					pub.publish(std_msgs::Empty()); // Land the drone
+					ros::spinOnce();
+					rate.sleep();
+				}
+				return 0;
+			}		
+		}
+		// Emergency landing 
+		if(state == 3) {
 			ros::Publisher pub = n.advertise<std_msgs::Empty>("/ardrone/land", 1);
 			double time_start = (double)ros::Time::now().toSec();
 			while((double)ros::Time::now().toSec() < time_start + 3.0) {
@@ -160,9 +222,6 @@ int main(int argc, char **argv) {
 				ros::spinOnce();
 				rate.sleep();
 			}
-			state = 4;
-		}
-		if(state == 4) {
 			return 0;
 		}
 		rate.sleep();

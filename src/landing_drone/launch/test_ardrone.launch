@@ -1,15 +1,51 @@
 <launch>
+<include file="$(find ardrone_autonomy)/launch/ardrone.launch"/>
 
-  
+	<arg name="marker_size" default="6" />
+	<arg name="max_new_marker_error" default="1.0" />
+	<arg name="max_track_error" default="2.0" />
+	<arg name="cam_image_topic" default="/ardrone/bottom/image_raw" />
+	<arg name="cam_info_topic" default="/ardrone/bottom/camera_info" />
+	<arg name="output_frame" default="/ardrone_base_bottomcam" />
+	<arg name="max_frequency" default="10" />
 
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find cvg_sim_gazebo)/worlds/project_world.world"/>
-</include>
+
+	
+
+	<node pkg="joy" type="joy_node" name="joy">
+		<param name="dev" type="string" value="/dev/input/js1"/>
+	</node>
 
 
+	<node name="joystick_controller" pkg="ardrone_tutorials" type="joystick_controller.py" required="true">
 
-  <!-- Spawn simulated quadrotor uav -->
-  <include file="$(find cvg_sim_gazebo)/launch/spawn_quadrotor.launch" >
-    <arg name="model" value="$(find cvg_sim_gazebo)/urdf/quadrotor_sensors.urdf.xacro"/> 
-  </include>
+		<param name="ButtonEmergency" value="7"/>
+		<param name="ButtonLand" value="1"/>
+		<param name = "ButtonTakeoff" value="0"/>
+
+		<param name="AxisRoll" value="0"/>
+		<param name="AxisPitch" value="1"/>
+		<param name="AxisYaw" value="2" />
+		<param name="AxisZ" value="3"/>
+	
+		<param name="ScaleRoll" value="1"/>
+		<param name="ScalePitch" value="1"/>
+		<param name="ScaleYaw" value="1"/>  
+		<param name="ScaleZ" value="1"/>
+	</node>
+
+	
+		
+	<node pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen"
+	name="ar_track_alvar">
+		<param name="marker_size" type="double" value="$(arg marker_size)" />
+		<param name="max_new_marker_error" type="double" value="$(arg
+		max_new_marker_error)" />
+		<param name="max_track_error" type="double" value="$(arg max_track_error)" />
+		<param name="output_frame" type="string" value="$(arg output_frame)"/>
+		<remap from="camera_image" to="$(arg cam_image_topic)" />
+		<remap from="camera_info" to="$(arg cam_info_topic)" />  
+		<param name="max_frequency" type="double" value="$(arg max_frequency)" />
+ 	</node>
+
 </launch>
