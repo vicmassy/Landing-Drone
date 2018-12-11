@@ -118,6 +118,7 @@ catkin_package(
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
+  /home/victor/catkin_ws/src/landing_drone/src
 )
 
 ## Declare a C++ library
@@ -198,6 +199,7 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 include_directories(include ${catkin_INCLUDE_DIRS})
-add_executable(MarkerLanding src/MarkerLanding.cpp)
+set(SOURCE_FILES src/MarkerLanding.cpp src/KalmanFilter.cpp)
+add_executable(MarkerLanding ${SOURCE_FILES})
 target_link_libraries(MarkerLanding ${catkin_LIBRARIES})
 add_dependencies(MarkerLanding landing_drone_generate_messages_cpp)

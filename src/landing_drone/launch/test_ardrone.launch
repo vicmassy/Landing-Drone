@@ -1,6 +1,7 @@
 <launch>
-<include file="$(find ardrone_autonomy)/launch/ardrone.launch"/>
 
+<include file="$(find ardrone_autonomy)/launch/ardrone.launch"/>
+    
 	<arg name="marker_size" default="6" />
 	<arg name="max_new_marker_error" default="1.0" />
 	<arg name="max_track_error" default="2.0" />
@@ -39,8 +40,7 @@
 	<node pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen"
 	name="ar_track_alvar">
 		<param name="marker_size" type="double" value="$(arg marker_size)" />
-		<param name="max_new_marker_error" type="double" value="$(arg
-		max_new_marker_error)" />
+		<param name="max_new_marker_error" type="double" value="$(arg max_new_marker_error)" />
 		<param name="max_track_error" type="double" value="$(arg max_track_error)" />
 		<param name="output_frame" type="string" value="$(arg output_frame)"/>
 		<remap from="camera_image" to="$(arg cam_image_topic)" />
