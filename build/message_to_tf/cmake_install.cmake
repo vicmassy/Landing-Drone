@@ -1,8 +1,8 @@
-# Install script for directory: /home/ahmed/ardrone_simulator/src/message_to_tf
+# Install script for directory: /home/victor/catkin_ws/src/message_to_tf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ahmed/ardrone_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/victor/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ahmed/ardrone_simulator/build/message_to_tf/catkin_generated/installspace/message_to_tf.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/victor/catkin_ws/build/message_to_tf/catkin_generated/installspace/message_to_tf.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_to_tf/cmake" TYPE FILE FILES
-    "/home/ahmed/ardrone_simulator/build/message_to_tf/catkin_generated/installspace/message_to_tfConfig.cmake"
-    "/home/ahmed/ardrone_simulator/build/message_to_tf/catkin_generated/installspace/message_to_tfConfig-version.cmake"
+    "/home/victor/catkin_ws/build/message_to_tf/catkin_generated/installspace/message_to_tfConfig.cmake"
+    "/home/victor/catkin_ws/build/message_to_tf/catkin_generated/installspace/message_to_tfConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_to_tf" TYPE FILE FILES "/home/ahmed/ardrone_simulator/src/message_to_tf/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_to_tf" TYPE FILE FILES "/home/victor/catkin_ws/src/message_to_tf/package.xml")
 endif()
 

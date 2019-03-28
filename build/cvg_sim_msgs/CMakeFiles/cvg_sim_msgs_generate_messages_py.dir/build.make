@@ -43,223 +43,223 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahmed/ardrone_simulator/src
+CMAKE_SOURCE_DIR = /home/victor/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahmed/ardrone_simulator/build
+CMAKE_BINARY_DIR = /home/victor/catkin_ws/build
 
 # Utility rule file for cvg_sim_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/progress.make
 
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py
-cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py
+cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py
 
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RawRC.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG cvg_sim_msgs/RawRC"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RawRC.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/YawrateCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG cvg_sim_msgs/YawrateCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/YawrateCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/MotorPWM.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG cvg_sim_msgs/MotorPWM"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/MotorPWM.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/PositionXYCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG cvg_sim_msgs/PositionXYCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/PositionXYCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Compass.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG cvg_sim_msgs/Compass"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Compass.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/AttitudeCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG cvg_sim_msgs/AttitudeCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/AttitudeCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/PositionXYCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG cvg_sim_msgs/PositionXYCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/PositionXYCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/VelocityZCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG cvg_sim_msgs/VelocityZCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/VelocityZCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RuddersCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG cvg_sim_msgs/RuddersCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RuddersCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RC.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG cvg_sim_msgs/RC"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RC.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/ServoCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG cvg_sim_msgs/ServoCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/ServoCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Compass.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG cvg_sim_msgs/Compass"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Compass.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RC.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG cvg_sim_msgs/RC"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RC.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RawRC.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG cvg_sim_msgs/RawRC"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RawRC.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/MotorCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG cvg_sim_msgs/MotorCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/MotorCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RuddersCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG cvg_sim_msgs/RuddersCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RuddersCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/HeightCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG cvg_sim_msgs/HeightCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/HeightCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/HeadingCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG cvg_sim_msgs/HeadingCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/HeadingCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/AttitudeCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG cvg_sim_msgs/AttitudeCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/AttitudeCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/ServoCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG cvg_sim_msgs/ServoCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/ServoCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/HeadingCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG cvg_sim_msgs/HeadingCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/HeadingCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/HeightCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG cvg_sim_msgs/HeightCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/HeightCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/MotorStatus.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG cvg_sim_msgs/MotorStatus"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/MotorStatus.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/ControllerState.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG cvg_sim_msgs/ControllerState"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/ControllerState.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/VelocityZCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG cvg_sim_msgs/VelocityZCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/VelocityZCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RawMagnetic.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG cvg_sim_msgs/RawMagnetic"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RawMagnetic.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Supply.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python from MSG cvg_sim_msgs/Supply"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Supply.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/VelocityXYCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python from MSG cvg_sim_msgs/VelocityXYCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/VelocityXYCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/ThrustCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG cvg_sim_msgs/ThrustCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/ThrustCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Altitude.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG cvg_sim_msgs/Altitude"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Altitude.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/VelocityXYCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG cvg_sim_msgs/VelocityXYCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/VelocityXYCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/MotorCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG cvg_sim_msgs/MotorCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/MotorCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/YawrateCommand.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python from MSG cvg_sim_msgs/YawrateCommand"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/YawrateCommand.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RawImu.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python from MSG cvg_sim_msgs/RawImu"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/RawImu.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/ControllerState.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG cvg_sim_msgs/ControllerState"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/ControllerState.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Altimeter.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG cvg_sim_msgs/Altimeter"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Altimeter.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Altimeter.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python from MSG cvg_sim_msgs/Altimeter"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Altimeter.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Supply.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python from MSG cvg_sim_msgs/Supply"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/Supply.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RawMagnetic.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python from MSG cvg_sim_msgs/RawMagnetic"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RawMagnetic.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/MotorPWM.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python from MSG cvg_sim_msgs/MotorPWM"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/MotorPWM.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RawImu.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python from MSG cvg_sim_msgs/RawImu"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/RawImu.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/MotorStatus.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python from MSG cvg_sim_msgs/MotorStatus"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/MotorStatus.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py: /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Altitude.msg
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG cvg_sim_msgs/Altitude"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg/Altitude.msg -Icvg_sim_msgs:/home/ahmed/ardrone_simulator/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py: /home/victor/catkin_ws/src/cvg_sim_msgs/msg/ThrustCommand.msg
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG cvg_sim_msgs/ThrustCommand"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/victor/catkin_ws/src/cvg_sim_msgs/msg/ThrustCommand.msg -Icvg_sim_msgs:/home/victor/catkin_ws/src/cvg_sim_msgs/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p cvg_sim_msgs -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg
 
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py
-/home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python msg __init__.py for cvg_sim_msgs"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg --initpy
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py
+/home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python msg __init__.py for cvg_sim_msgs"
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg --initpy
 
 cvg_sim_msgs_generate_messages_py: cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py
-cvg_sim_msgs_generate_messages_py: /home/ahmed/ardrone_simulator/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_YawrateCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_PositionXYCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_AttitudeCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityZCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RC.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Compass.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawRC.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RuddersCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeadingCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ServoCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_HeightCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ControllerState.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawMagnetic.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_VelocityXYCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altitude.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_RawImu.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Altimeter.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_Supply.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorPWM.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_MotorStatus.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/_ThrustCommand.py
+cvg_sim_msgs_generate_messages_py: /home/victor/catkin_ws/devel/lib/python2.7/dist-packages/cvg_sim_msgs/msg/__init__.py
 cvg_sim_msgs_generate_messages_py: cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/build.make
 
 .PHONY : cvg_sim_msgs_generate_messages_py
@@ -270,10 +270,10 @@ cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/build: cvg_sim_msg
 .PHONY : cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/build
 
 cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/clean:
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_msgs && $(CMAKE_COMMAND) -P CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/victor/catkin_ws/build/cvg_sim_msgs && $(CMAKE_COMMAND) -P CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/clean
 
 cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/depend:
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahmed/ardrone_simulator/src /home/ahmed/ardrone_simulator/src/cvg_sim_msgs /home/ahmed/ardrone_simulator/build /home/ahmed/ardrone_simulator/build/cvg_sim_msgs /home/ahmed/ardrone_simulator/build/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/catkin_ws/src /home/victor/catkin_ws/src/cvg_sim_msgs /home/victor/catkin_ws/build /home/victor/catkin_ws/build/cvg_sim_msgs /home/victor/catkin_ws/build/cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cvg_sim_msgs/CMakeFiles/cvg_sim_msgs_generate_messages_py.dir/depend
 

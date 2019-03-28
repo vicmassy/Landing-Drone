@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahmed/ardrone_simulator/src
+CMAKE_SOURCE_DIR = /home/victor/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahmed/ardrone_simulator/build
+CMAKE_BINARY_DIR = /home/victor/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/depend.make
@@ -58,17 +58,17 @@ include cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/progress.make
 include cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/flags.make
 
 cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o: cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/flags.make
-cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o: /home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o -c /home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp
+cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o: /home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o"
+	cd /home/victor/catkin_ws/build/cvg_sim_gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o -c /home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp
 
 cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.i"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp > CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.i
+	cd /home/victor/catkin_ws/build/cvg_sim_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp > CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.i
 
 cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.s"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp -o CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.s
+	cd /home/victor/catkin_ws/build/cvg_sim_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/src/test_trajectory.cpp -o CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.s
 
 cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o.requires:
 
@@ -88,53 +88,53 @@ test_trajectory_OBJECTS = \
 # External object files for target test_trajectory
 test_trajectory_EXTERNAL_OBJECTS =
 
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build.make
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libcamera_info_manager.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libgazebo_ros_api_plugin.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libgazebo_ros_paths_plugin.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libtf.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libactionlib.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libtf2.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libimage_transport.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libclass_loader.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/libPocoFoundation.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libroslib.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librospack.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libroscpp.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librosconsole.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librostime.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory"
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_trajectory.dir/link.txt --verbose=$(VERBOSE)
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build.make
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libcamera_info_manager.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libgazebo_ros_api_plugin.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libgazebo_ros_paths_plugin.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libtf.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libactionlib.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libtf2.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libimage_transport.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libtinyxml2.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libclass_loader.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/libPocoFoundation.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libdl.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libroslib.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librospack.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libpython2.7.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_program_options.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libtinyxml.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libroscpp.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_filesystem.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_signals.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librosconsole.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/liblog4cxx.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_regex.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/librostime.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /opt/ros/kinetic/lib/libcpp_common.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_system.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_thread.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_chrono.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_date_time.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libboost_atomic.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libpthread.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: /usr/lib/i386-linux-gnu/libconsole_bridge.so
+/home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory: cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory"
+	cd /home/victor/catkin_ws/build/cvg_sim_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_trajectory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build: /home/ahmed/ardrone_simulator/devel/lib/cvg_sim_gazebo_plugins/test_trajectory
+cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build: /home/victor/catkin_ws/devel/lib/cvg_sim_gazebo_plugins/test_trajectory
 
 .PHONY : cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/build
 
@@ -143,10 +143,10 @@ cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/requires: cvg_sim_gazebo_p
 .PHONY : cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/requires
 
 cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/clean:
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/test_trajectory.dir/cmake_clean.cmake
+	cd /home/victor/catkin_ws/build/cvg_sim_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/test_trajectory.dir/cmake_clean.cmake
 .PHONY : cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/clean
 
 cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/depend:
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahmed/ardrone_simulator/src /home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins /home/ahmed/ardrone_simulator/build /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/catkin_ws/src /home/victor/catkin_ws/src/cvg_sim_gazebo_plugins /home/victor/catkin_ws/build /home/victor/catkin_ws/build/cvg_sim_gazebo_plugins /home/victor/catkin_ws/build/cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cvg_sim_gazebo_plugins/CMakeFiles/test_trajectory.dir/depend
 

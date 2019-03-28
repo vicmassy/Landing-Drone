@@ -1,0 +1,6 @@
+set(landing_drone_SETUP_PY_VERSION "0.0.0")
+set(landing_drone_SETUP_PY_SCRIPTS "")
+set(landing_drone_SETUP_PY_PACKAGES "​landing_drone​")
+set(landing_drone_SETUP_PY_PACKAGE_DIRS "src/​landing_drone​")
+set(landing_drone_SETUP_PY_MODULES "")
+set(landing_drone_SETUP_PY_MODULE_DIRS "")

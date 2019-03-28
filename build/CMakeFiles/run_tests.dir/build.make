@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahmed/ardrone_simulator/src
+CMAKE_SOURCE_DIR = /home/victor/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahmed/ardrone_simulator/build
+CMAKE_BINARY_DIR = /home/victor/catkin_ws/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahmed/ardrone_simulator/src /home/ahmed/ardrone_simulator/src /home/ahmed/ardrone_simulator/build /home/ahmed/ardrone_simulator/build /home/ahmed/ardrone_simulator/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/catkin_ws/src /home/victor/catkin_ws/src /home/victor/catkin_ws/build /home/victor/catkin_ws/build /home/victor/catkin_ws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

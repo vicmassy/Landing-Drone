@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahmed/ardrone_simulator/src
+CMAKE_SOURCE_DIR = /home/victor/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahmed/ardrone_simulator/build
+CMAKE_BINARY_DIR = /home/victor/catkin_ws/build
 
 # Utility rule file for dynamic_reconfigure_gencfg.
 
@@ -63,10 +63,10 @@ cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build: dynamic_reconfig
 .PHONY : cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 
 cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
-	cd /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
+	cd /home/victor/catkin_ws/build/cvg_sim_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
 .PHONY : cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahmed/ardrone_simulator/src /home/ahmed/ardrone_simulator/src/cvg_sim_gazebo /home/ahmed/ardrone_simulator/build /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo /home/ahmed/ardrone_simulator/build/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/catkin_ws/src /home/victor/catkin_ws/src/cvg_sim_gazebo /home/victor/catkin_ws/build /home/victor/catkin_ws/build/cvg_sim_gazebo /home/victor/catkin_ws/build/cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cvg_sim_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

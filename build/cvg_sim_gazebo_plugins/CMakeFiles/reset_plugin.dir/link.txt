@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC -std=c++11   -shared -Wl,-soname,libreset_plugin.so -o /home/ahmed/ardrone_simulator/devel/lib/libreset_plugin.so CMakeFiles/reset_plugin.dir/src/reset_plugin.cpp.o 
+/usr/bin/c++  -fPIC -std=c++11   -shared -Wl,-soname,libreset_plugin.so -o /home/victor/catkin_ws/devel/lib/libreset_plugin.so CMakeFiles/reset_plugin.dir/src/reset_plugin.cpp.o 

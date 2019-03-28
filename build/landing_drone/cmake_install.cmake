@@ -1,8 +1,8 @@
-# Install script for directory: /home/ahmed/ardrone_simulator/src/landing_drone
+# Install script for directory: /home/victor/catkin_ws/src/landing_drone
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ahmed/ardrone_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/victor/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ahmed/ardrone_simulator/build/landing_drone/catkin_generated/installspace/landing_drone.pc")
+  include("/home/victor/catkin_ws/build/landing_drone/catkin_generated/safe_execute_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/victor/catkin_ws/build/landing_drone/catkin_generated/installspace/landing_drone.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/landing_drone/cmake" TYPE FILE FILES
-    "/home/ahmed/ardrone_simulator/build/landing_drone/catkin_generated/installspace/landing_droneConfig.cmake"
-    "/home/ahmed/ardrone_simulator/build/landing_drone/catkin_generated/installspace/landing_droneConfig-version.cmake"
+    "/home/victor/catkin_ws/build/landing_drone/catkin_generated/installspace/landing_droneConfig.cmake"
+    "/home/victor/catkin_ws/build/landing_drone/catkin_generated/installspace/landing_droneConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/landing_drone" TYPE FILE FILES "/home/ahmed/ardrone_simulator/src/landing_drone/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/landing_drone" TYPE FILE FILES "/home/victor/catkin_ws/src/landing_drone/package.xml")
 endif()
 

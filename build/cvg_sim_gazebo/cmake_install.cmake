@@ -1,8 +1,8 @@
-# Install script for directory: /home/ahmed/ardrone_simulator/src/cvg_sim_gazebo
+# Install script for directory: /home/victor/catkin_ws/src/cvg_sim_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ahmed/ardrone_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/victor/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo/catkin_generated/installspace/cvg_sim_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/victor/catkin_ws/build/cvg_sim_gazebo/catkin_generated/installspace/cvg_sim_gazebo.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cvg_sim_gazebo/cmake" TYPE FILE FILES
-    "/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo/catkin_generated/installspace/cvg_sim_gazeboConfig.cmake"
-    "/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo/catkin_generated/installspace/cvg_sim_gazeboConfig-version.cmake"
+    "/home/victor/catkin_ws/build/cvg_sim_gazebo/catkin_generated/installspace/cvg_sim_gazeboConfig.cmake"
+    "/home/victor/catkin_ws/build/cvg_sim_gazebo/catkin_generated/installspace/cvg_sim_gazeboConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cvg_sim_gazebo" TYPE FILE FILES "/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cvg_sim_gazebo" TYPE FILE FILES "/home/victor/catkin_ws/src/cvg_sim_gazebo/package.xml")
 endif()
 

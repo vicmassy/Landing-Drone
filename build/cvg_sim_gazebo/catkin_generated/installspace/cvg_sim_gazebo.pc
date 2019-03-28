@@ -1,8 +1,8 @@
-prefix=/home/ahmed/ardrone_simulator/install
+prefix=/home/victor/catkin_ws/install
 
 Name: cvg_sim_gazebo
 Description: Description of cvg_sim_gazebo
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/ahmed/ardrone_simulator/install/lib 
+Libs: -L/home/victor/catkin_ws/install/lib 
 Requires: 

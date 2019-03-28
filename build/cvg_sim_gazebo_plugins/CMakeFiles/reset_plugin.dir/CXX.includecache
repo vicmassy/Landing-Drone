@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h
+/home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h
 gazebo/common/Plugin.hh
-/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/include/hector_gazebo_plugins/gazebo/common/Plugin.hh
+/home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/include/hector_gazebo_plugins/gazebo/common/Plugin.hh
 ros/ros.h
 -
 
-/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/src/reset_plugin.cpp
+/home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/src/reset_plugin.cpp
 hector_gazebo_plugins/reset_plugin.h
 -
 gazebo/common/Events.hh
-/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/src/gazebo/common/Events.hh
+/home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/src/gazebo/common/Events.hh
 std_msgs/String.h
 -
 
@@ -945,6 +945,8 @@ ignition/math/Angle.hh
 -
 ignition/math/Box.hh
 -
+ignition/math/Color.hh
+-
 ignition/math/Filter.hh
 -
 ignition/math/Frustum.hh
@@ -953,15 +955,23 @@ ignition/math/Helpers.hh
 -
 ignition/math/IndexException.hh
 -
+ignition/math/Inertial.hh
+-
 ignition/math/Kmeans.hh
 -
 ignition/math/Line2.hh
 -
 ignition/math/Line3.hh
 -
+ignition/math/MassMatrix3.hh
+-
 ignition/math/Matrix3.hh
 -
 ignition/math/Matrix4.hh
+-
+ignition/math/OrientedBox.hh
+-
+ignition/math/PID.hh
 -
 ignition/math/Plane.hh
 -
@@ -973,15 +983,25 @@ ignition/math/Rand.hh
 -
 ignition/math/RotationSpline.hh
 -
+ignition/math/SemanticVersion.hh
+-
 ignition/math/SignalStats.hh
+-
+ignition/math/SphericalCoordinates.hh
 -
 ignition/math/Spline.hh
 -
+ignition/math/Temperature.hh
+-
 ignition/math/Triangle.hh
+-
+ignition/math/Triangle3.hh
 -
 ignition/math/Vector2.hh
 -
 ignition/math/Vector3.hh
+-
+ignition/math/Vector3Stats.hh
 -
 ignition/math/Vector4.hh
 -
@@ -999,6 +1019,18 @@ ignition/math/Helpers.hh
 -
 
 /usr/include/ignition/math2/ignition/math/Box.hh
+iostream
+-
+tuple
+-
+ignition/math/Helpers.hh
+-
+ignition/math/Vector3.hh
+-
+ignition/math/Line3.hh
+-
+
+/usr/include/ignition/math2/ignition/math/Color.hh
 iostream
 -
 ignition/math/Helpers.hh
@@ -1035,12 +1067,22 @@ iostream
 -
 vector
 -
+tuple
+-
+cstdint
+-
 
 /usr/include/ignition/math2/ignition/math/IndexException.hh
 stdexcept
 -
 ignition/math/Helpers.hh
 -
+
+/usr/include/ignition/math2/ignition/math/Inertial.hh
+ignition/math/MassMatrix3.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/MassMatrix3.hh
+ignition/math/Pose3.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/Pose3.hh
 
 /usr/include/ignition/math2/ignition/math/Kmeans.hh
 vector
@@ -1066,7 +1108,27 @@ ignition/math/Vector3.hh
 ignition/math/IndexException.hh
 -
 
+/usr/include/ignition/math2/ignition/math/MassMatrix3.hh
+algorithm
+-
+string
+-
+vector
+-
+ignition/math/Helpers.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/Helpers.hh
+ignition/math/Quaternion.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/Quaternion.hh
+ignition/math/Vector2.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/Vector2.hh
+ignition/math/Vector3.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/Vector3.hh
+ignition/math/Matrix3.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/Matrix3.hh
+
 /usr/include/ignition/math2/ignition/math/Matrix3.hh
+algorithm
+-
 cstring
 -
 ignition/math/Vector3.hh
@@ -1075,7 +1137,7 @@ ignition/math/Quaternion.hh
 -
 
 /usr/include/ignition/math2/ignition/math/Matrix4.hh
-ignition/math/Helpers.hh
+algorithm
 -
 ignition/math/AffineException.hh
 -
@@ -1084,6 +1146,24 @@ ignition/math/Matrix3.hh
 ignition/math/Vector3.hh
 -
 ignition/math/Pose3.hh
+-
+
+/usr/include/ignition/math2/ignition/math/OrientedBox.hh
+iostream
+-
+ignition/math/Helpers.hh
+-
+ignition/math/Matrix4.hh
+-
+ignition/math/Pose3.hh
+-
+ignition/math/Vector3.hh
+-
+
+/usr/include/ignition/math2/ignition/math/PID.hh
+chrono
+-
+ignition/math/Helpers.hh
 -
 
 /usr/include/ignition/math2/ignition/math/Plane.hh
@@ -1107,6 +1187,8 @@ ignition/math/Angle.hh
 -
 ignition/math/Vector3.hh
 -
+ignition/math/Matrix3.hh
+-
 
 /usr/include/ignition/math2/ignition/math/Rand.hh
 random
@@ -1114,6 +1196,8 @@ random
 cmath
 -
 cstdint
+-
+memory
 -
 ignition/math/Helpers.hh
 -
@@ -1124,10 +1208,30 @@ ignition/math/IndexException.hh
 ignition/math/Quaternion.hh
 -
 
+/usr/include/ignition/math2/ignition/math/SemanticVersion.hh
+memory
+-
+string
+-
+ignition/math/Helpers.hh
+-
+
 /usr/include/ignition/math2/ignition/math/SignalStats.hh
 map
 -
 string
+-
+ignition/math/Helpers.hh
+-
+
+/usr/include/ignition/math2/ignition/math/SphericalCoordinates.hh
+memory
+-
+string
+-
+ignition/math/Angle.hh
+-
+ignition/math/Vector3.hh
 -
 ignition/math/Helpers.hh
 -
@@ -1140,12 +1244,30 @@ ignition/math/IndexException.hh
 ignition/math/Vector3.hh
 -
 
+/usr/include/ignition/math2/ignition/math/Temperature.hh
+iostream
+-
+memory
+-
+ignition/math/Helpers.hh
+/usr/include/ignition/math2/ignition/math/ignition/math/Helpers.hh
+
 /usr/include/ignition/math2/ignition/math/Triangle.hh
 set
 -
 ignition/math/Line2.hh
 -
 ignition/math/Vector2.hh
+-
+ignition/math/IndexException.hh
+-
+
+/usr/include/ignition/math2/ignition/math/Triangle3.hh
+ignition/math/Line3.hh
+-
+ignition/math/Plane.hh
+-
+ignition/math/Vector3.hh
 -
 ignition/math/IndexException.hh
 -
@@ -1168,17 +1290,27 @@ ignition/math/Helpers.hh
 ignition/math/IndexException.hh
 -
 
+/usr/include/ignition/math2/ignition/math/Vector3Stats.hh
+string
+-
+ignition/math/Helpers.hh
+-
+ignition/math/SignalStats.hh
+-
+ignition/math/Vector3.hh
+-
+
 /usr/include/ignition/math2/ignition/math/Vector4.hh
 ignition/math/Matrix4.hh
 -
 
 /usr/include/ignition/math2/ignition/math/config.hh
 
-/usr/include/sdformat-4.0/sdf/Assert.hh
+/usr/include/sdformat-4.4/sdf/Assert.hh
 boost/assert.hpp
 -
 
-/usr/include/sdformat-4.0/sdf/Console.hh
+/usr/include/sdformat-4.4/sdf/Console.hh
 iostream
 -
 fstream
@@ -1188,17 +1320,17 @@ string
 memory
 -
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 
-/usr/include/sdformat-4.0/sdf/Converter.hh
+/usr/include/sdformat-4.4/sdf/Converter.hh
 tinyxml.h
 -
 string
 -
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 
-/usr/include/sdformat-4.0/sdf/Element.hh
+/usr/include/sdformat-4.4/sdf/Element.hh
 string
 -
 vector
@@ -1206,13 +1338,13 @@ vector
 memory
 -
 sdf/Param.hh
-/usr/include/sdformat-4.0/sdf/sdf/Param.hh
+/usr/include/sdformat-4.4/sdf/sdf/Param.hh
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 sdf/Types.hh
-/usr/include/sdformat-4.0/sdf/sdf/Types.hh
+/usr/include/sdformat-4.4/sdf/sdf/Types.hh
 
-/usr/include/sdformat-4.0/sdf/Exception.hh
+/usr/include/sdformat-4.4/sdf/Exception.hh
 iostream
 -
 sstream
@@ -1222,14 +1354,16 @@ stdint.h
 string
 -
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 
-/usr/include/sdformat-4.0/sdf/Param.hh
+/usr/include/sdformat-4.4/sdf/Param.hh
 boost/lexical_cast.hpp
 -
 boost/any.hpp
 -
 boost/variant.hpp
+-
+boost/version.hpp
 -
 memory
 -
@@ -1246,13 +1380,13 @@ vector
 ignition/math.hh
 -
 sdf/Console.hh
-/usr/include/sdformat-4.0/sdf/sdf/Console.hh
+/usr/include/sdformat-4.4/sdf/sdf/Console.hh
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 sdf/Types.hh
-/usr/include/sdformat-4.0/sdf/sdf/Types.hh
+/usr/include/sdformat-4.4/sdf/sdf/Types.hh
 
-/usr/include/sdformat-4.0/sdf/SDFImpl.hh
+/usr/include/sdformat-4.4/sdf/SDFImpl.hh
 string
 -
 memory
@@ -1260,15 +1394,15 @@ memory
 functional
 -
 sdf/Param.hh
-/usr/include/sdformat-4.0/sdf/sdf/Param.hh
+/usr/include/sdformat-4.4/sdf/sdf/Param.hh
 sdf/Element.hh
-/usr/include/sdformat-4.0/sdf/sdf/Element.hh
+/usr/include/sdformat-4.4/sdf/sdf/Element.hh
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 sdf/Types.hh
-/usr/include/sdformat-4.0/sdf/sdf/Types.hh
+/usr/include/sdformat-4.4/sdf/sdf/Types.hh
 
-/usr/include/sdformat-4.0/sdf/Types.hh
+/usr/include/sdformat-4.4/sdf/Types.hh
 algorithm
 -
 cmath
@@ -1280,19 +1414,19 @@ sstream
 vector
 -
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 
-/usr/include/sdformat-4.0/sdf/parser.hh
+/usr/include/sdformat-4.4/sdf/parser.hh
 tinyxml.h
 -
 string
 -
 sdf/SDFImpl.hh
-/usr/include/sdformat-4.0/sdf/sdf/SDFImpl.hh
+/usr/include/sdformat-4.4/sdf/sdf/SDFImpl.hh
 sdf/system_util.hh
-/usr/include/sdformat-4.0/sdf/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/sdf/system_util.hh
 
-/usr/include/sdformat-4.0/sdf/sdf.hh
+/usr/include/sdformat-4.4/sdf/sdf.hh
 sdf/Assert.hh
 -
 sdf/Console.hh
@@ -1316,7 +1450,7 @@ sdf/system_util.hh
 sdf/sdf_config.h
 -
 
-/usr/include/sdformat-4.0/sdf/sdf_config.h
+/usr/include/sdformat-4.4/sdf/sdf_config.h
 
-/usr/include/sdformat-4.0/sdf/system_util.hh
+/usr/include/sdformat-4.4/sdf/system_util.hh
 

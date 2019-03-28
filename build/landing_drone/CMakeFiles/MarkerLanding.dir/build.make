@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahmed/ardrone_simulator/src
+CMAKE_SOURCE_DIR = /home/victor/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahmed/ardrone_simulator/build
+CMAKE_BINARY_DIR = /home/victor/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include landing_drone/CMakeFiles/MarkerLanding.dir/depend.make
@@ -58,17 +58,17 @@ include landing_drone/CMakeFiles/MarkerLanding.dir/progress.make
 include landing_drone/CMakeFiles/MarkerLanding.dir/flags.make
 
 landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o: landing_drone/CMakeFiles/MarkerLanding.dir/flags.make
-landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o: /home/ahmed/ardrone_simulator/src/landing_drone/src/MarkerLanding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o"
-	cd /home/ahmed/ardrone_simulator/build/landing_drone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o -c /home/ahmed/ardrone_simulator/src/landing_drone/src/MarkerLanding.cpp
+landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o: /home/victor/catkin_ws/src/landing_drone/src/MarkerLanding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o"
+	cd /home/victor/catkin_ws/build/landing_drone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o -c /home/victor/catkin_ws/src/landing_drone/src/MarkerLanding.cpp
 
 landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.i"
-	cd /home/ahmed/ardrone_simulator/build/landing_drone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/ardrone_simulator/src/landing_drone/src/MarkerLanding.cpp > CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.i
+	cd /home/victor/catkin_ws/build/landing_drone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/catkin_ws/src/landing_drone/src/MarkerLanding.cpp > CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.i
 
 landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.s"
-	cd /home/ahmed/ardrone_simulator/build/landing_drone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/ardrone_simulator/src/landing_drone/src/MarkerLanding.cpp -o CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.s
+	cd /home/victor/catkin_ws/build/landing_drone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/catkin_ws/src/landing_drone/src/MarkerLanding.cpp -o CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.s
 
 landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o.requires:
 
@@ -81,57 +81,84 @@ landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o.provides: lan
 landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o.provides.build: landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o
 
 
+landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o: landing_drone/CMakeFiles/MarkerLanding.dir/flags.make
+landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o: /home/victor/catkin_ws/src/landing_drone/src/KalmanFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o"
+	cd /home/victor/catkin_ws/build/landing_drone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o -c /home/victor/catkin_ws/src/landing_drone/src/KalmanFilter.cpp
+
+landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.i"
+	cd /home/victor/catkin_ws/build/landing_drone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/catkin_ws/src/landing_drone/src/KalmanFilter.cpp > CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.i
+
+landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.s"
+	cd /home/victor/catkin_ws/build/landing_drone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/catkin_ws/src/landing_drone/src/KalmanFilter.cpp -o CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.s
+
+landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.requires:
+
+.PHONY : landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.requires
+
+landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.provides: landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.requires
+	$(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.provides.build
+.PHONY : landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.provides
+
+landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.provides.build: landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o
+
+
 # Object files for target MarkerLanding
 MarkerLanding_OBJECTS = \
-"CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o"
+"CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o" \
+"CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o"
 
 # External object files for target MarkerLanding
 MarkerLanding_EXTERNAL_OBJECTS =
 
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/build.make
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libtf.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libactionlib.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libroscpp.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libtf2.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librosconsole.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librostime.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/ardrone_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding"
-	cd /home/ahmed/ardrone_simulator/build/landing_drone && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MarkerLanding.dir/link.txt --verbose=$(VERBOSE)
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/build.make
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libtf.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libactionlib.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libroscpp.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_filesystem.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_signals.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libtf2.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librosconsole.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/liblog4cxx.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_regex.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/librostime.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /opt/ros/kinetic/lib/libcpp_common.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_system.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_thread.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_chrono.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_date_time.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libboost_atomic.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libpthread.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: /usr/lib/i386-linux-gnu/libconsole_bridge.so
+/home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding"
+	cd /home/victor/catkin_ws/build/landing_drone && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MarkerLanding.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-landing_drone/CMakeFiles/MarkerLanding.dir/build: /home/ahmed/ardrone_simulator/devel/lib/landing_drone/MarkerLanding
+landing_drone/CMakeFiles/MarkerLanding.dir/build: /home/victor/catkin_ws/devel/lib/landing_drone/MarkerLanding
 
 .PHONY : landing_drone/CMakeFiles/MarkerLanding.dir/build
 
 landing_drone/CMakeFiles/MarkerLanding.dir/requires: landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o.requires
+landing_drone/CMakeFiles/MarkerLanding.dir/requires: landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o.requires
 
 .PHONY : landing_drone/CMakeFiles/MarkerLanding.dir/requires
 
 landing_drone/CMakeFiles/MarkerLanding.dir/clean:
-	cd /home/ahmed/ardrone_simulator/build/landing_drone && $(CMAKE_COMMAND) -P CMakeFiles/MarkerLanding.dir/cmake_clean.cmake
+	cd /home/victor/catkin_ws/build/landing_drone && $(CMAKE_COMMAND) -P CMakeFiles/MarkerLanding.dir/cmake_clean.cmake
 .PHONY : landing_drone/CMakeFiles/MarkerLanding.dir/clean
 
 landing_drone/CMakeFiles/MarkerLanding.dir/depend:
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahmed/ardrone_simulator/src /home/ahmed/ardrone_simulator/src/landing_drone /home/ahmed/ardrone_simulator/build /home/ahmed/ardrone_simulator/build/landing_drone /home/ahmed/ardrone_simulator/build/landing_drone/CMakeFiles/MarkerLanding.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/catkin_ws/src /home/victor/catkin_ws/src/landing_drone /home/victor/catkin_ws/build /home/victor/catkin_ws/build/landing_drone /home/victor/catkin_ws/build/landing_drone/CMakeFiles/MarkerLanding.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : landing_drone/CMakeFiles/MarkerLanding.dir/depend
 

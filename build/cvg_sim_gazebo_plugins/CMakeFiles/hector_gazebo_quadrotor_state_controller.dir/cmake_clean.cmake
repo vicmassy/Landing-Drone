@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_gazebo_quadrotor_state_controller.dir/src/quadrotor_state_controller.cpp.o"
-  "/home/ahmed/ardrone_simulator/devel/lib/libhector_gazebo_quadrotor_state_controller.pdb"
-  "/home/ahmed/ardrone_simulator/devel/lib/libhector_gazebo_quadrotor_state_controller.so"
+  "/home/victor/catkin_ws/devel/lib/libhector_gazebo_quadrotor_state_controller.pdb"
+  "/home/victor/catkin_ws/devel/lib/libhector_gazebo_quadrotor_state_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/message_to_tf.dir/src/message_to_tf.cpp.o"
-  "/home/ahmed/ardrone_simulator/devel/lib/message_to_tf/message_to_tf.pdb"
-  "/home/ahmed/ardrone_simulator/devel/lib/message_to_tf/message_to_tf"
+  "/home/victor/catkin_ws/devel/lib/message_to_tf/message_to_tf.pdb"
+  "/home/victor/catkin_ws/devel/lib/message_to_tf/message_to_tf"
 )
 
 # Per-language clean rules from dependency scanning.

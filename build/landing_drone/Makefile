@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahmed/ardrone_simulator/src
+CMAKE_SOURCE_DIR = /home/victor/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahmed/ardrone_simulator/build
+CMAKE_BINARY_DIR = /home/victor/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,6 +78,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -87,6 +98,17 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -99,28 +121,6 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
 
 # Special rule for the target test
 test:
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ahmed/ardrone_simulator/build/CMakeFiles /home/ahmed/ardrone_simulator/build/landing_drone/CMakeFiles/progress.marks
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmed/ardrone_simulator/build/CMakeFiles 0
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/catkin_ws/build/CMakeFiles /home/victor/catkin_ws/build/landing_drone/CMakeFiles/progress.marks
+	cd /home/victor/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/clean
+	cd /home/victor/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/preinstall
+	cd /home/victor/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/preinstall
+	cd /home/victor/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 landing_drone/CMakeFiles/MarkerLanding.dir/rule:
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/CMakeFiles/MarkerLanding.dir/rule
+	cd /home/victor/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 landing_drone/CMakeFiles/MarkerLanding.dir/rule
 .PHONY : landing_drone/CMakeFiles/MarkerLanding.dir/rule
 
 # Convenience name for target.
@@ -177,8 +177,35 @@ MarkerLanding: landing_drone/CMakeFiles/MarkerLanding.dir/rule
 
 # fast build rule for target.
 MarkerLanding/fast:
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/build
+	cd /home/victor/catkin_ws/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/build
 .PHONY : MarkerLanding/fast
+
+src/KalmanFilter.o: src/KalmanFilter.cpp.o
+
+.PHONY : src/KalmanFilter.o
+
+# target to build an object file
+src/KalmanFilter.cpp.o:
+	cd /home/victor/catkin_ws/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.o
+.PHONY : src/KalmanFilter.cpp.o
+
+src/KalmanFilter.i: src/KalmanFilter.cpp.i
+
+.PHONY : src/KalmanFilter.i
+
+# target to preprocess a source file
+src/KalmanFilter.cpp.i:
+	cd /home/victor/catkin_ws/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.i
+.PHONY : src/KalmanFilter.cpp.i
+
+src/KalmanFilter.s: src/KalmanFilter.cpp.s
+
+.PHONY : src/KalmanFilter.s
+
+# target to generate assembly for a file
+src/KalmanFilter.cpp.s:
+	cd /home/victor/catkin_ws/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/KalmanFilter.cpp.s
+.PHONY : src/KalmanFilter.cpp.s
 
 src/MarkerLanding.o: src/MarkerLanding.cpp.o
 
@@ -186,7 +213,7 @@ src/MarkerLanding.o: src/MarkerLanding.cpp.o
 
 # target to build an object file
 src/MarkerLanding.cpp.o:
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o
+	cd /home/victor/catkin_ws/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.o
 .PHONY : src/MarkerLanding.cpp.o
 
 src/MarkerLanding.i: src/MarkerLanding.cpp.i
@@ -195,7 +222,7 @@ src/MarkerLanding.i: src/MarkerLanding.cpp.i
 
 # target to preprocess a source file
 src/MarkerLanding.cpp.i:
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.i
+	cd /home/victor/catkin_ws/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.i
 .PHONY : src/MarkerLanding.cpp.i
 
 src/MarkerLanding.s: src/MarkerLanding.cpp.s
@@ -204,7 +231,7 @@ src/MarkerLanding.s: src/MarkerLanding.cpp.s
 
 # target to generate assembly for a file
 src/MarkerLanding.cpp.s:
-	cd /home/ahmed/ardrone_simulator/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.s
+	cd /home/victor/catkin_ws/build && $(MAKE) -f landing_drone/CMakeFiles/MarkerLanding.dir/build.make landing_drone/CMakeFiles/MarkerLanding.dir/src/MarkerLanding.cpp.s
 .PHONY : src/MarkerLanding.cpp.s
 
 # Help Target
@@ -215,12 +242,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... install/local"
 	@echo "... install"
 	@echo "... MarkerLanding"
-	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... test"
+	@echo "... src/KalmanFilter.o"
+	@echo "... src/KalmanFilter.i"
+	@echo "... src/KalmanFilter.s"
 	@echo "... src/MarkerLanding.o"
 	@echo "... src/MarkerLanding.i"
 	@echo "... src/MarkerLanding.s"
@@ -235,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ahmed/ardrone_simulator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

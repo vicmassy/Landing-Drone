@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/src/reset_plugin.cpp" "/home/ahmed/ardrone_simulator/build/cvg_sim_gazebo_plugins/CMakeFiles/reset_plugin.dir/src/reset_plugin.cpp.o"
+  "/home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/src/reset_plugin.cpp" "/home/victor/catkin_ws/build/cvg_sim_gazebo_plugins/CMakeFiles/reset_plugin.dir/src/reset_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,12 +17,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ahmed/ardrone_simulator/devel/include"
-  "/home/ahmed/ardrone_simulator/src/cvg_sim_gazebo_plugins/include"
+  "/home/victor/catkin_ws/devel/include"
+  "/home/victor/catkin_ws/src/cvg_sim_gazebo_plugins/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-7"
-  "/usr/include/sdformat-4.0"
+  "/usr/include/sdformat-4.4"
   "/usr/include/ignition/math2"
   "/usr/include/OGRE"
   "/usr/include/OGRE/Terrain"

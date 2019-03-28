@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_cpp"
-  "/home/ahmed/ardrone_simulator/devel/include/cvg_sim_gazebo_plugins/SetBias.h"
+  "/home/victor/catkin_ws/devel/include/cvg_sim_gazebo_plugins/SetBias.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ahmed/ardrone_simulator/src/tum_simulator
+# Install script for directory: /home/victor/catkin_ws/src/tum_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ahmed/ardrone_simulator/install")
+  set(CMAKE_INSTALL_PREFIX "/home/victor/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tum_simulator" TYPE FILE FILES "/home/ahmed/ardrone_simulator/src/tum_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tum_simulator" TYPE FILE FILES "/home/victor/catkin_ws/src/tum_simulator/package.xml")
 endif()
 

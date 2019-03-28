@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/ahmed/ardrone_simulator/build"
+export PWD="/home/victor/catkin_ws/build"

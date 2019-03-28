@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cvg_sim_gazebo_plugins_generate_messages_nodejs"
-  "/home/ahmed/ardrone_simulator/devel/share/gennodejs/ros/cvg_sim_gazebo_plugins/srv/SetBias.js"
+  "/home/victor/catkin_ws/devel/share/gennodejs/ros/cvg_sim_gazebo_plugins/srv/SetBias.js"
 )
 
 # Per-language clean rules from dependency scanning.

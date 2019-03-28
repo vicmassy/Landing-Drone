@@ -11,17 +11,17 @@
         <param name="euler_angle_max" value="0.21" />
         <param name="control_vz_max" value="700" />
 	    <param name="control_yaw" value="1.75" />
+	    <param name="flying_mode" value="1" />
 	    <param name="detect_type" value="0" /> <!-- value 2 for front camera (enemy color), value 3 - no detection, and value 4 - vertical camera roundel detection values. CAD_TYPE_VISION is 2d horizontal tags (hopefully the colored ones on the drone) -->
 	  <!--  <param name="default_groundstripe_colors" value="ARDRONE_DETECTION_COLOR_ARRACE_FINISH_LINE" /> -->
 	   	<param name="detections_select_h" value="0" />
 	    <param name="detections_select_v" value="0" /><!-- Bottom Camera detection disabled, was detections_select_v_hsync 128 -->
 	    <param name="enemy_without_shell" value="0" />
-	    <param name="do_imu_caliberation" value="true" />
+	    <param name="do_imu_calibration" value="true" />
 	    <param name="tf_prefix" value="mydrone" />
         <!-- Covariance Values (3x3 matrices reshaped to 1x9)-->
         <rosparam param="cov/imu_la">[0.1, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.1]</rosparam>
         <rosparam param="cov/imu_av">[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]</rosparam>
         <rosparam param="cov/imu_or">[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 100000.0]</rosparam>
 	</node>
-	<node pkg="rxtools" type="rxplot" name="plot_battery" args="/ardrone/navdata/batteryPercent" />
 </launch>

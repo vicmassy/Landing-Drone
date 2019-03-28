@@ -1,8 +1,0 @@
-prefix=/home/ahmed/ardrone_simulator/install
-
-Name: landing_drone
-Description: Description of landing_drone
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/ahmed/ardrone_simulator/install/lib 
-Requires: 

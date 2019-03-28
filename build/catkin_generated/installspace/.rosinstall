@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ahmed/ardrone_simulator/install/setup.sh
+    local-name: /home/victor/catkin_ws/install/setup.sh
