@@ -35,20 +35,21 @@ double current_x = 0.0, current_y = 0.0;
 geometry_msgs::Twist twist;
 
 void checkCin() {
-    char follow_marker;
-    std::cin >> follow_marker;
-    if (follow_marker == 'l') {
-        state = 2;
-    }
-    char land;
-    std::cin >> land;
-    if (land == 'l') {
-        state = 3;
-    }
-    char emergency_land;
-    std::cin >> emergency_land;
-    if (land == 'l') {
-        state = 4;
+    char input;
+    while(1) {
+        std::cin >> input;
+        if (input == 's') {
+            state = 1;
+        }
+        if (input == 'f') {
+            state = 2;
+        }
+        if (input == 'l') {
+            state = 3;
+        }
+        if (input == 'e') {
+            state = 4;
+        }
     }
 }
 
@@ -77,7 +78,6 @@ int main(int argc, char **argv) {
     // Thread that waits user input
     boost::thread t(&checkCin);
 
-
     twist.linear.x = 0.0;
     twist.linear.y = 0.0;
     twist.linear.z = 0.0;
@@ -87,11 +87,11 @@ int main(int argc, char **argv) {
     
     int size_n = 4;
     int size_m = 2;
-    double Kp=0.00001, Kd=0.0, Ki=0.0, Kpz = 0.05;
+    double Kp=0.00001, Kd=0.0, Ki=0.0, Kpz = 0.05, Kdz = 0.0;
     double threshold_error = 200;
     double dt = 0.01;
     double state_x = 0.0, state_y = 0.0;
-    double z_ref = 1.6;
+    double z_ref = 1.4;
     double error_z = 0.0;
     
     MatrixXf A(size_n, size_n); // System dynamics matrix
@@ -140,14 +140,14 @@ int main(int argc, char **argv) {
         }
 
         // PID
-        twist.linear.x = Kp  * state_x  + Kd * (state_x - last_error_x)  + Ki * sum_error_x ;
-        twist.linear.y = Kp  * state_y + Kd  * (state_y - last_error_y) + Ki  * sum_error_y ;
+        twist.linear.x = Kp  * state_x  + Kd * (state_x - last_error_x)  + Ki * sum_error_x;// - 0.01;
+        twist.linear.y = Kp  * state_y + Kd  * (state_y - last_error_y) + Ki  * sum_error_y;// + 0.005;
 
         error_z = z_ref - altd;
         sum_error_z += error_z;
 
         // PID for altitude
-        twist.linear.z = Kpz  * error_z   + Kd * (error_z - last_error_z)  + Ki * sum_error_z ;
+        twist.linear.z = Kpz  * error_z  + Kdz * (error_z - last_error_z)  + Ki * sum_error_z ;
 
         last_error_x = state_x;
         last_error_y = state_y;
@@ -173,30 +173,30 @@ int main(int argc, char **argv) {
                 ros::spinOnce();
                 rate.sleep();
             }
-            /*
-            twist.linear.z = 0.5;
-            pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
-            time_start = (double)ros::Time::now().toSec();
-            while((double)ros::Time::now().toSec() < time_start + 1.0) {
+            state = 1;
+        }
+        if(state == 1) {
+            printf("Stable\n");
+            twist.linear.x = 0.0;
+            twist.linear.y = 0.0;
+            twist.linear.z = 0.0;
+            twist.angular.x = 0.0;
+            twist.angular.y = 0.0;
+            twist.angular.z = 0.0;
+            ros::Publisher pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
+            double time_start = (double) ros::Time::now().toSec();
+            while ((double) ros::Time::now().toSec() < time_start + 0.5) {
                 pub.publish(twist);
                 ros::spinOnce();
                 rate.sleep();
             }
-            twist.linear.z = 0.0;
-            pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
-            time_start = (double)ros::Time::now().toSec();
-            while((double)ros::Time::now().toSec() < time_start + 0.25) {
-                pub.publish(twist);
-                ros::spinOnce();
-                rate.sleep();
-            }*/
-            state = 1;
         }
         if(state == 2) {
+
             printf("Following\n");
             ros::Publisher pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
             double time_start = (double)ros::Time::now().toSec();
-            while((double)ros::Time::now().toSec() < time_start + 0.25) {
+            while((double)ros::Time::now().toSec() < time_start + 0.5) {
                 pub.publish(twist);
                 ros::spinOnce();
                 rate.sleep();
