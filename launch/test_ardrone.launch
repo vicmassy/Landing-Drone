@@ -1,0 +1,54 @@
+<launch>
+
+    <include file="$(find landing_drone)/launch/environment.launch"/>
+
+    <!-- Simulation in Gazebo-->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find cvg_sim_gazebo)/worlds/project_world.world"/>
+    </include>
+    
+    <!-- Displays window of camera image-->
+	<node name="joystick_controller" pkg="ardrone_tutorials" type="joystick_controller.py" required="true">
+
+		<param name="ButtonEmergency" value="7"/>
+		<param name="ButtonLand" value="1"/>
+		<param name = "ButtonTakeoff" value="0"/>
+
+		<param name="AxisRoll" value="0"/>
+		<param name="AxisPitch" value="1"/>
+		<param name="AxisYaw" value="2" />
+		<param name="AxisZ" value="3"/>
+	
+		<param name="ScaleRoll" value="1"/>
+		<param name="ScalePitch" value="1"/>
+		<param name="ScaleYaw" value="1"/>  
+		<param name="ScaleZ" value="1"/>
+	</node>
+
+ 	<!-- Spawn simulated quadrotor UAV -->
+
+    <include file="$(find cvg_sim_gazebo)/launch/spawn_quadrotor.launch" >
+        <arg name="model" value="$(find cvg_sim_gazebo)/urdf/quadrotor_sensors.urdf.xacro"/>
+        <arg name="x" value="1"/>
+    </include>
+    <!--
+    <group>
+        <arg name="base" value="$(optenv TURTLEBOT_BASE kobuki)"/> 
+        <arg name="stacks" value="$(optenv TURTLEBOT_STACKS hexagons)"/>  
+        <arg name="3d_sensor" value="$(optenv TURTLEBOT_3D_SENSOR kinect)"/> 
+        <include file="$(find turtlebot_gazebo)/launch/includes/$(arg base).launch.xml">
+            <arg name="base" value="$(arg base)"/>
+            <arg name="stacks" value="$(arg stacks)"/>
+            <arg name="3d_sensor" value="$(arg 3d_sensor)"/>
+        </include>
+        
+        <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_publisher">
+            <param name="publish_frequency" type="double" value="30.0" />
+        </node>
+    </group>-->
+
+    <!-- Spawn Platform UGV-->
+    <param name="robot_description_2" command="$(find xacro)/xacro.py $(find turtlebot_description)/robots/roomba_circles_asus_xtion_pro.urdf.xacro" />
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description_2 -urdf -model turtlebot" />
+    
+</launch>

@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -std=c++11   -shared -Wl,-soname,libdiffdrive_plugin_6w.so -o /home/victor/catkin_ws/devel/lib/libdiffdrive_plugin_6w.so CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.o -lboost_thread -lboost_date_time -lboost_system -lboost_atomic -lboost_chrono -lpthread 

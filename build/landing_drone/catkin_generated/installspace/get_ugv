@@ -1,8 +1,0 @@
-#! /usr/bin/env python
-
-import get_ugv
-
-
-if __name__ == '__main__':
-    landing_drone.get_ugv.say()
-

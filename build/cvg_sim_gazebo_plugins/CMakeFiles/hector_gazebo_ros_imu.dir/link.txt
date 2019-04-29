@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -std=c++11   -shared -Wl,-soname,libhector_gazebo_ros_imu.so -o /home/victor/catkin_ws/devel/lib/libhector_gazebo_ros_imu.so CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.o -lboost_thread -lboost_date_time -lboost_system -lboost_atomic -lboost_chrono -lpthread 
